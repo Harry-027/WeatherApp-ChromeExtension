@@ -1,0 +1,26 @@
+{
+
+  "name": "WeatherForecast",
+  "version" : "1.0",
+  "manifest_version": 2,
+  "description": "This extension shows WeatherForecast",
+  "background": {
+   "scripts" : ["background.js"]
+   },
+  "browser_action": {
+    "default_title" : "Forecast",
+    "default_icon": "icon2.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://*/*","https://*/*"],
+      "css": ["WeatherApp/style.css","WeatherApp/bootstrap.min.css"],
+      "js": ["WeatherApp/angular.min.js", "WeatherApp/app.js","WeatherApp/bootstrap.min.js","WeatherApp/jquery-1.12.1.min.js","WeatherApp/angular.min.js"]
+    }
+  ],
+  "options_page" : "WeatherApp/index.html",
+  "permissions": [
+    "background",
+    "tabs"
+  ]
+}

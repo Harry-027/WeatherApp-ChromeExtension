@@ -1,0 +1,104 @@
+.forecast-img {
+max-height: 150px;
+max-width: 200px;
+width: 120px;
+height: 120px;
+
+}
+
+body {
+background-image:url(3.jpg);
+background-repeat:no-repeat;
+background-size:cover;
+}
+
+
+.xg{
+
+&nbsp; &nbsp;
+&nbsp; &nbsp;
+&nbsp; &nbsp;
+float : right;
+
+}
+
+.harry {
+
+    -moz-text-decoration-color: red; /* Code for Firefox */
+    text-decoration-color: red;
+font-style: italic;
+
+}
+
+.mm {
+    display: block;
+    margin: 10px;
+    top : 20%;
+    width: 30%;
+    font-style : bold;
+    font-family: sans-serif;
+    font-size: 15px;
+    color : black;
+    background : red;
+    float: left;
+    display: inline;
+  }
+  .mn {
+    margin: 0;
+    width: 60%;
+    font-size: 19px;
+    color : green;
+    float: left;
+    display: inline;
+  }
+   .mb {
+    margin: 0;
+    width: 40%;
+    font-size: 20px;
+    color : red;
+    Position: relative;
+    display: inline;
+    text-align:center;
+  }
+.clear{clear: both;}
+
+.XB {
+
+min-width: 450px;
+max-width: 1000px;
+
+}
+
+.pg{
+  padding:5px;
+  margin: 10px;
+  height: 0px;
+}
+
+footer { 
+  height: 54px;
+  width: 930px;
+  float: right;
+  margin: 20px auto 20px auto;
+  padding: 0px 20px 0 0;
+  border-radius: 7px 7px 7px 7px;
+  -moz-border-radius: 7px 7px 7px 7px;
+  -webkit-border: 7px 7px 7px 7px;
+  font: 120% 'News Cycle', arial, sans-serif;
+  text-align: right;
+  line-height: 1.7em;}
+
+footer p { 
+  padding: 0 0 10px 0;}
+
+footer a, footer a:hover {
+  text-decoration: none;}
+
+
+h2 {
+
+color : white;
+display: block;
+font-style:bold;
+
+}
